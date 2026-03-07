@@ -1,0 +1,39 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {"key": "X-Content-Type-Options", "value": "nosniff"},
+        {"key": "X-Frame-Options", "value": "SAMEORIGIN"},
+        {"key": "X-XSS-Protection", "value": "1; mode=block"},
+        {"key": "Referrer-Policy", "value": "strict-origin-when-cross-origin"},
+        {"key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()"}
+      ]
+    },
+    {
+      "source": "/(.*)\.(js|css|woff2|woff|ttf|png|jpg|svg|ico)",
+      "headers": [
+        {"key": "Cache-Control", "value": "public, max-age=31536000, immutable"}
+      ]
+    },
+    {
+      "source": "/(.*)\.html",
+      "headers": [
+        {"key": "Cache-Control", "value": "public, max-age=3600, stale-while-revalidate=86400"}
+      ]
+    }
+  ],
+  "redirects": [
+    {"source": "/apa-citation-generator", "destination": "/apa-citation-generator.html", "permanent": false},
+    {"source": "/mla-citation-generator", "destination": "/mla-citation-generator.html", "permanent": false},
+    {"source": "/irac", "destination": "/legal-brief-irac-generator.html", "permanent": true},
+    {"source": "/apa", "destination": "/apa-citation-generator.html", "permanent": true},
+    {"source": "/mla", "destination": "/mla-citation-generator.html", "permanent": true},
+    {"source": "/blog", "destination": "/blog.html", "permanent": false},
+    {"source": "/about", "destination": "/about.html", "permanent": false},
+    {"source": "/contact", "destination": "/contact.html", "permanent": false},
+    {"source": "/privacy", "destination": "/privacy.html", "permanent": false}
+  ]
+}

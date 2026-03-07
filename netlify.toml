@@ -12,3 +12,8 @@
   for = "/sitemap.xml"
   [headers.values]
     Cache-Control = "public, max-age=86400"
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
